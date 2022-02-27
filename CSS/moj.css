@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+  font-family: "Alex Brush", cursive;
+  font-family: "Dancing Script", cursive;
+  font-family: "Mukta", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: aqua;
+  height: 100%;
+}
+
+div {
+  height: 191px;
+}
+
+html {
+  font-size: 10px;
+}
+
+section {
+  height: 25vh;
+}
+
+.odd {
+  background-color: black;
+  color: white;
+}
+
+.even {
+  background-color: white;
+  color: black;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  margin: 1px auto;
+  background-color: #0086f3;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.circle:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
+.milk:hover {
+  background-color: white;
+}
+
+.black:hover {
+  background-color: black;
+}
+/*# sourceMappingURL=moj.css.map */

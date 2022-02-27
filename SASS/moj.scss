@@ -1,0 +1,78 @@
+@import "./_color.scss";
+@import "./font";
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: grey;
+	font-family: "Alex Brush", cursive;
+	font-family: "Dancing Script", cursive;
+	font-family: "Mukta", sans-serif;
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+	color: aqua;
+	height: 100%;
+}
+
+div {
+	height: 191px;
+}
+
+html {
+	font-size: 10px;
+}
+
+@mixin addon1 {
+	width: 100px;
+	height: 100px;
+	margin: 1px auto;
+	background-color: $circle;
+	border-radius: 50%;
+	border: 3px solid black;
+}
+
+section {
+	height: 25vh;
+}
+
+.odd {
+	background-color: $black;
+	color: $milk;
+}
+
+.even {
+	background-color: $milk;
+	color: $black;
+}
+
+h1 {
+	font-size: $h1;
+}
+
+h2 {
+	font-size: $h2;
+}
+
+h3 {
+	font-size: $h3;
+}
+
+.circle {
+	@include addon1;
+}
+
+.circle:hover {
+	transform: scale(1.25);
+}
+
+.milk:hover {
+	background-color: $milk;
+}
+
+.black:hover {
+	background-color: $black;
+}
